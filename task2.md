@@ -1,4 +1,4 @@
-# Let's learn various types of RISC-V instructions
+# VARIOUS TYPES OF RISC-V INSTRUCTIONS
 <p align="justify">RISC-V is a modular, extensible computer instruction set architecture (ISA) that supports 16-bit (RV16E), 32-bit (RV32I).RISC-V instructions are encoded using a fixed-length 32-bit format, which simplifies decoding and execution of instructions handling the upper bits and the lower bits</p>
  
 
