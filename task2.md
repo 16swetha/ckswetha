@@ -61,6 +61,7 @@ lui rt, imm(19:12)</p>
 <br>
 <p align="justify">The J-type instruction format in RISC-V is used for unconditional jumps. The J-type instructions include the JAL (Jump and Link) instruction, which is used to perform an unconditional jump and save the address of the next instruction in the link register.</p>
 Example:</p>
+jump</p>
 </details>
 
 # Base Instructions Format
