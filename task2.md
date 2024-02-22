@@ -17,7 +17,7 @@ Example: </p>
 </b></summary>
 <br>
 <p align="justify">The I-type instruction set in RISC-V is used for instructions with immediates and loads. It is used for performing various arithmetic and logical operations using immediate values and memory. </p>
-Example:
+Example:</p>
 addi rd, rs1, imm: This instruction adds an immediate value to the value in register rs1 and stores the result in register rd.
 	
   </details>
