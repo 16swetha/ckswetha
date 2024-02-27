@@ -57,6 +57,8 @@ use the command
 
 ![WhatsApp Image 2024-02-27 at 11 10 38_06ab8223](https://github.com/16swetha/ckswetha/assets/160165692/b0709154-b4a1-4c39-9540-17f02b585c1b)
 
+![WhatsApp Image 2024-02-27 at 11 45 41_04bb5211](https://github.com/16swetha/ckswetha/assets/160165692/681289cf-2749-4080-8fc1-d44aaec2417d)
+
 
 
 
