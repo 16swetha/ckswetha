@@ -59,6 +59,7 @@ This project provides an insight into the working of a few important instruction
 $ iverilog -o hello hello.v hello_tb.v
 $ ./hello
 ```
+![WhatsApp Image 2024-03-05 at 14 15 14_178d0b78](https://github.com/16swetha/ckswetha/assets/160165692/bfa30f90-b0e4-415b-ac9b-04b7076ae91a)
 
 
 
@@ -66,7 +67,7 @@ $ ./hello
 
 `$ gtkwave hello.vcd`
 
-![WhatsApp Image 2024-03-05 at 14 15 14_178d0b78](https://github.com/16swetha/ckswetha/assets/160165692/bfa30f90-b0e4-415b-ac9b-04b7076ae91a)
+![WhatsApp Image 2024-03-05 at 14 24 30_dfc8c135](https://github.com/16swetha/ckswetha/assets/160165692/c6066c79-ebe1-424c-a305-9826ab99aa53)
 
 ### 4.3 The output waveform
 
