@@ -1,51 +1,55 @@
-## 1. FUNCTIONAL SIMULATION
+**TASK 5**
 
-### 1.1 About iverilog and gtkwave
-- Icarus Verilog is an implementation of the Verilog hardware description language.
-- GTKWave is a fully featured GTK+ v1. 2 based wave viewer for Unix and Win32 which reads Ver Structural Verilog Compiler generated AET files as well as standard Verilog VCD/EVCD files and allows their viewing.
-  
-### 1.2 Installing iverilog and gtkwave
+Final task to carry out **GATE LEVEL SIMULATION (GLS)** </p>
+The directory should contain
 
-- **For Ubuntu**
+(i) gatelevel netlist:A gate-level netlist is a representation of a circuit that consists of gates or standard cells interconnected together, similar to a circuit diagram of the entire design. 
 
- Open your terminal and type the following to install iverilog and GTKWave
- ```
- $   sudo apt get update
- $   sudo apt get install iverilog gtkwave
- ```
+(ii) standard cell library:The standard cell library in GTKWave is a crucial component used for debugging Verilog or VHDL simulation models. While GTKWave is primarily an analysis tool and not intended for interactive simulation, it relies on post-mortem analysis through dumpfiles.
 
-![WhatsApp Image 2024-03-05 at 14 06 21_b7b43118](https://github.com/16swetha/ckswetha/assets/160165692/71c7eb68-c8f0-4e0b-a0ba-8f530bb000eb)
+(iii) yosys synthesis report:The Yosys synthesis report provides essential information about the synthesis process and the resulting gate-level netlist. It includes details such as the design hierarchy, synthesis algorithms applied, mapping to standard cell libraries, and the final output netlist</p>
 
-- **To clone the repository and download the netlist files for simulation, enter the following commands in your terminal.**
+All these involves 3 steps</p>
+ a.Generate Synthesis Output</p>
+ b.Convert to VCD</p>
+ c.View in GTKWave</p>
+The files present are:
 
- ```
- $ git clonehttps://github.com/16swetha/ckswetha.git
- $ cd 
-```
+![file1](https://github.com/16swetha/ckswetha/assets/160165692/53a6135f-c300-42f6-b25e-abf11ec91911)
 
-![WhatsApp Image 2024-03-05 at 14 06 21_b7b43118](https://github.com/16swetha/ckswetha/assets/160165692/84ea886a-0423-46d1-b400-dda567150e17)
+In gtkwave rv32 </p>
 
-- **To simulate and run the Verilog code, enter the following commands in your terminal.**
+![file2](https://github.com/16swetha/ckswetha/assets/160165692/c98844fe-1e18-4f5f-9ca1-91fbe8e25b71)
 
-```
-$ iverilog -o hello hello.v hello_tb.v
-$ ./hello
-```
-![WhatsApp Image 2024-03-05 at 14 15 14_178d0b78](https://github.com/16swetha/ckswetha/assets/160165692/bfa30f90-b0e4-415b-ac9b-04b7076ae91a)
+![File3](https://github.com/16swetha/ckswetha/assets/160165692/a580df26-0f06-4ccf-845a-375c9e0e57f7)
 
 
+**EXECUTION OF THE OPERATIONS**</p>
 
-- **To see the output waveform in gtkwave, enter the following commands in your terminal.**
+**OPERATION-ADD**
 
-`$ gtkwave hello.vcd`
+![add5](https://github.com/16swetha/ckswetha/assets/160165692/b19c7913-fa8f-4032-b57d-f48311b01d5c)
 
-![WhatsApp Image 2024-03-05 at 14 24 30_dfc8c135](https://github.com/16swetha/ckswetha/assets/160165692/c6066c79-ebe1-424c-a305-9826ab99aa53)
+**OPERATION-SUB**
 
-### 1.3 The output waveform
+![sub5](https://github.com/16swetha/ckswetha/assets/160165692/4d1d7a0e-4620-493d-8ee7-2cf05c326c69)
 
-![WhatsApp Image 2024-03-05 at 14 17 57_b53184ad](https://github.com/16swetha/ckswetha/assets/160165692/ad99262b-6c42-44a2-8ef4-c35773c6a9d3)
+**OPERATION LOGICAL AND**
 
-![WhatsApp Image 2024-03-05 at 14 20 04_e2a37576](https://github.com/16swetha/ckswetha/assets/160165692/cf230436-0dc8-493b-b200-b34150cae12d)
+![and5](https://github.com/16swetha/ckswetha/assets/160165692/5cc1d41c-90a6-4172-a77a-5faa99a27e06)
+
+**OPERATION LOGICAL OR**
+
+![or5](https://github.com/16swetha/ckswetha/assets/160165692/f9b262f3-cb5a-4cac-9b3e-304470b41da8)
+
+**OPERATION LOGICAL XOR**
+
+![xor5](https://github.com/16swetha/ckswetha/assets/160165692/25d96ebb-2755-41d2-b10e-21668daf2b9a)
+
+
+
+
+
 
 
 
