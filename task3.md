@@ -29,6 +29,7 @@ Step 5: To check the output use the command
 
 ![WhatsApp Image 2024-02-27 at 11 05 05_74b8f972](https://github.com/16swetha/ckswetha/assets/160165692/b0964a0f-6d28-4874-8a58-4c170038be6c)
 
+
 The results will be displayed as
 
 Sum of numbers from 1 to 500 is 125250
@@ -46,7 +47,7 @@ Step 2: Compile the code in riscv using the command
 
 riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
 
-![WhatsApp Image 2024-02-27 at 11 36 16_b29ba0a3](https://github.com/16swetha/ckswetha/assets/160165692/d95eb78c-e309-4ad3-9534-5c411ede8d78)
+![308856679-4a5ea8b4-1d1c-44fa-9dc8-a9a9d7d6d176](https://github.com/16swetha/ckswetha/assets/160165692/234f4561-e45c-43f0-b9de-55ed412e7b20)
 
 Step 3: The ls ltr command iis used to list the contents of the current directory in long format, sorted by last modified time in reverse order in the linux.
 
