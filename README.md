@@ -22,8 +22,8 @@ sudo apt-get install autoconf automake autotools-dev curl python3 python3-pip li
 
 ![WhatsApp Image 2024-02-20 at 20 12 32_954eb0df](https://github.com/16swetha/ckswetha/assets/160165692/eb9f50dd-2786-475c-b691-68d6a44d5412)
 
-4. To install gtkwave</p>
-sudo apt-get -y install gtkwave</p>
+ 4.To install gtkwave</p>
+   sudo apt-get -y install gtkwave</p>
 ![WhatsApp Image 2024-02-20 at 20 12 32_871c9966](https://github.com/16swetha/ckswetha/assets/160165692/de5e5914-089b-4d1c-aa89-84be3bdfca3c)
 
 
